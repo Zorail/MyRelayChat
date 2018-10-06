@@ -1,0 +1,27 @@
+{
+  "name": "myrelaychat",
+  "version": "1.0.0",
+  "description": "A chat application using relay framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Realy-Modern",
+    "Graphql"
+  ],
+  "author": "Zorail",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/node": "^7.0.0",
+    "relay-compiler": "^1.6.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "babel-plugin-relay": "^1.6.2",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "webpack": "^4.20.2"
+  }
+}
