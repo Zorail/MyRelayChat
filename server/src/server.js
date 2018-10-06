@@ -24,7 +24,6 @@ graphQLServer.use('/graphql',
 )
 
 // Creating a combined server with subscription support
-
 let ws = createServer(graphQLServer);
 
 ws.listen(GRAPHQL_PORT, () => {
