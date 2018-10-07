@@ -1,3 +1,9 @@
-import { Query as UserQuery } from '../User/user.graphql';
-import { Query as ThreadQuery } from '../Thread/thread.graphql';
-import { Query as MessageQuery } from '../graphQLTypes/message.graphql'
+import * as UserQuery from '../User/user.resolver.query';
+import * as ThreadQuery from '../Thread/thread.resolver.query';
+import * as MessageQuery from '../Message/message.resolver.query';
+
+export {
+  UserQuery,
+  ThreadQuery,
+  MessageQuery
+}

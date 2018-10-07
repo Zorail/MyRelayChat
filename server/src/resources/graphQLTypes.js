@@ -1,9 +1,11 @@
-import Query from './resources/Query';
-import Mutation from './resources/Mutation';
-import Subscription from './resources/Subscription';
+import Query from './Query';
+import Mutations from './Mutations';
+import Subscriptions from './Subscriptions'
+
+// Custom types
 
 export {
   Query,
-  Mutation,
-  Subscription
-};
+  Mutations,
+  Subscriptions
+}
