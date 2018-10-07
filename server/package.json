@@ -4,7 +4,8 @@
   "description": "A chat application using relay framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/server.js"
   },
   "keywords": [
     "Realy-Modern",
@@ -19,6 +20,10 @@
   },
   "dependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
     "babel-loader": "^8.0.4",
     "babel-plugin-relay": "^1.6.2",
     "dotenv": "^6.0.0",

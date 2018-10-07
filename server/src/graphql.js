@@ -11,5 +11,5 @@ import {
 export const schema = new GraphQLSchema({
   query: Query,
   mutation: Mutation,
-  subscription: Subscription
+  // subscription: Subscription
 })

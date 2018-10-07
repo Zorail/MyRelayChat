@@ -5,7 +5,6 @@ import {
 } from 'graphql';
 
 import {
-  fromGlobalId,
   globalIdField,
   connectionDefinitions
 } from 'graphql-relay'

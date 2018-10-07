@@ -1,6 +1,6 @@
-import Query from './Query';
-import Mutations from './Mutations';
-import Subscriptions from './Subscriptions'
+import  { Query } from './Query';
+import { Mutation } from './Mutations';
+import { Subscription } from './Subscriptions'
 
 // Custom types
 import {
@@ -17,8 +17,8 @@ import {
 
 export {
   Query,
-  Mutations,
-  Subscriptions,
+  Mutation,
+  Subscription,
   GraphQLUser,
   GraphQLThread,
   GraphQLMessage
