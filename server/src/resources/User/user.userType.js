@@ -34,3 +34,7 @@ const GraphQLUser = new GraphQLObjectType({
   },
   interfaces: [nodeInterface]
 })
+
+export {
+  GraphQLUser
+}
