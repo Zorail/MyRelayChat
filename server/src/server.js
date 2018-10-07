@@ -11,7 +11,7 @@ import { schema } from './graphql';
 
 const GRAPHQL_PORT = 3000;
 
-// Expossing a graphql endpoint
+// Exposing a graphql endpoint
 let graphQLServer = express()
 
 graphQLServer.use('/', express.static(path.resolve(__dirname, 'public')));
