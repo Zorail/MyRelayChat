@@ -2,6 +2,11 @@ function getUser(id) {
   
 }
 
+function getCurrentUser() {
+
+}
+
 export {
-  getUser
+  getUser,
+  getCurrentUser
 }

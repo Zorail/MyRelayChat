@@ -21,6 +21,7 @@ const Query = new GraphQLObjectType({
       type: GraphQLUser,
       resolve: () => {
         // get currentAuthenticatedUser
+        return UserQuery.getCurrentUser()
       }
     },
     node: nodeField
